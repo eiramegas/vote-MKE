@@ -10,10 +10,19 @@
 body{
     max-width: 100%;
 }
-
+header{
+    justify-content: space-between;
+}
 #header-logo{
     display: block;
    max-width: 150px;
     width: 150px;
    height: auto;
+}
+#search-bar{
+    justify-content: end;
+}
+.navbarright{
+
+
 }
