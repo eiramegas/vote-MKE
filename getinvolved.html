@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html>
 <head>
+    <link rel="stylesheet" href="CSS/calendar-css/theme3.css">
+    <script src="JS/calendar-js/caleandar.js"></script>
+    <script src="JS/scripts.JS"></script>
 </head>
 <body>
     <header>
@@ -7,9 +12,27 @@
         </nav>
     </header>
     <div class="contents">
+        <div id="calendar">
+            <script>
+                //add events to calendar by adding new event object.
+                var events = [
+                    {
+                        'Date': new Date(2020, 3, 7),
+                        'Title': 'Spring Election'
+                    }
+                ];
+
+                var settings = {};
+
+                var element = document.getElementById('calendar');
+                caleandar(element, events, settings);
+            </script>
+        </div>
 
     </div>
     <footer>
 
     </footer>
+    
 </body>
+</html>
