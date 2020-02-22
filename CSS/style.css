@@ -105,3 +105,11 @@ div.row-content {
     margin: 10px 0;
     padding: 10px 0;
 }
+
+.countdown-tile{
+    background-color: #0E2141;
+    padding: 50px 10px 50px;
+    color: #EEEEEE;
+    font-size: large;
+    font-weight: bold;
+}
