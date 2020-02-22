@@ -1,0 +1,36 @@
+{
+  "name": "vote-mke",
+  "version": "1.0.0",
+  "description": "hack-a-pipeline voting info site",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiramegas/vote-MKE.git"
+  },
+  "keywords": [
+    "local",
+    "politics",
+    "MKE",
+    "vote"
+  ],
+  "author": "Vote MKE Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiramegas/vote-MKE/issues"
+  },
+  "homepage": "https://github.com/eiramegas/vote-MKE#readme"
+}
