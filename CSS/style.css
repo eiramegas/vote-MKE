@@ -3,9 +3,11 @@ nav, h1, h2, h3, h4 {
     font-family: 'Rift';
     color: black;
     text-decoration: none;
+    padding: .5rem 0;
+    margin: .2rem 0;
 }
-nav li:hover {
-    color: #00A6E4;
+.nav-link:hover {
+    color: #00A6E4 !important;
 }
 body{
     max-width: 100%;
@@ -27,4 +29,72 @@ body{
 }
 .row-content{
     border-bottom: 1pt solid grey;
+}
+.row-content {
+	padding: .5rem 0;
+	border-bottom: 1px ridge;
+	min-height: 2.5rem;
+}
+.navbar {
+	background-color: rgb(39, 29, 62, .9);
+}
+.tab-content {
+	border: 1px solid #DDD;
+	border-top: none;
+	padding: 10px;
+}
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-text{
+    font-family: 'rift';
+    color: white;
+}
+.carousel {
+	border: none;
+	display: block;
+	width: 100%
+}
+.nav-item {
+	margin: 0 .75rem 0 .75rem;
+}
+.logo {
+	margin: -.5rem;
+}
+
+.sh {
+
+}
+.card-header {
+	Background-color: #BF6B00;
+}
+.card{
+    box-shadow: .2rem .2rem rgba(128, 128, 128, 0.76);
+}
+.btn-link,
+h5,
+a {
+	color: white;
+}
+div.row-content {
+	border-bottom: 1px solid grey;
+	border-top: 0px;
+}
+#carouselButton {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.site-footer{
+    background-color: #0C2140;
+    
+}
+.contents{
+    margin: 2rem 0;
+}
+
+.footer-txt{
+    color:white;
+    margin: 10px 0;
+    padding: 10px 0;
 }
