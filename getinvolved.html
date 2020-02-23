@@ -60,41 +60,63 @@
     <div class="contents">
         <div class="row justify-content-md-center">
             <div class="col-lg-12">
-                <h1>Upcoming Events in Your Area</h1>
+                <h1 class="text-center">Upcoming Events in Your Area</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12" id="calendar">
-                <script>
-                    //add events to calendar by adding new event object.
-                    //Months are zero indexed ( April = 3)
-                    var events = [
-                        {
-                            'Date': new Date(2020, 3, 7),
-                            'Title': 'Spring Election'
-                        },
-                        {
-                            'Date': new Date(2020, 1, 11),
-                            'Title': 'City/County Task Force on Climate and Economic Equity',
-                            'Link': 'https://city.milwaukee.gov/CityEvents/CityHallMeetingSchedule/CityCounty-Task-Force-on-Climate-and-Economic-Equity/2019-Meetings/2020-Meetings/CityCounty-Task-Force-on-Climate-and-Economic-Equity0Copy0Copy0Copy0Copy.htm'
-                        },
-                        {
-                            'Date': new Date(2020, 1, 25),
-                            'Title': 'ZONING, NEIGHBORHOODS & DEVELOPMENT COMMITTEE',
-                            'Link': 'https://city.milwaukee.gov/CityEvents/CityHallMeetingSchedule/ZONINGNEIGHBORHOODSDEVELOPMENTCOMMITTEE/2020-Meetings/ZONING-NEIGHBORHOODS--DEVELOPMENT-COMMITTEECopy-10Copy0Copy0Copy0Copy1.htm'
-                        },
-                        {
-                            'Date': new Date(2020, 1, 28),
-                            'Title': 'MILLENNIAL TASK FORCE',
-                            'Link': 'https://milwaukee.legistar.com/MeetingDetail.aspx?ID=762171&GUID=FF29855B-47A9-4A77-8250-7442EFECA28C&Options=info&Search='
-                        }
-                    ];
-    
-                    var settings = {};
-    
-                    var element = document.getElementById('calendar');
-                    caleandar(element, events, settings);
-                </script>
+            <div class="col-lg-12 justify-content-md-end">
+
+                <div id="calendar">
+                    <script>
+                        //add events to calendar by adding new event object.
+                        //Months are zero indexed ( April = 3)
+                        var events = [
+                            {
+                                'Date': new Date(2020, 3, 7),
+                                'Title': 'Spring Election'
+                            },
+                            {
+                                'Date': new Date(2020, 1, 11),
+                                'Title': 'City/County Task Force on Climate and Economic Equity',
+                                'Link': 'https://city.milwaukee.gov/CityEvents/CityHallMeetingSchedule/CityCounty-Task-Force-on-Climate-and-Economic-Equity/2019-Meetings/2020-Meetings/CityCounty-Task-Force-on-Climate-and-Economic-Equity0Copy0Copy0Copy0Copy.htm'
+                            },
+                            {
+                                'Date': new Date(2020, 1, 25),
+                                'Title': 'ZONING, NEIGHBORHOODS & DEVELOPMENT COMMITTEE',
+                                'Link': 'https://city.milwaukee.gov/CityEvents/CityHallMeetingSchedule/ZONINGNEIGHBORHOODSDEVELOPMENTCOMMITTEE/2020-Meetings/ZONING-NEIGHBORHOODS--DEVELOPMENT-COMMITTEECopy-10Copy0Copy0Copy0Copy1.htm'
+                            },
+                            {
+                                'Date': new Date(2020, 1, 28),
+                                'Title': 'MILLENNIAL TASK FORCE',
+                                'Link': 'https://milwaukee.legistar.com/MeetingDetail.aspx?ID=762171&GUID=FF29855B-47A9-4A77-8250-7442EFECA28C&Options=info&Search='
+                            }
+                        ];
+        
+                        var settings = {};
+        
+                        var element = document.getElementById('calendar');
+                        caleandar(element, events, settings);
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="text-center">Get Involved!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button onclick="window.location.href= 'https://urbanmilwaukee.com/membership-account/membership-levels/';" type="button"
+                        class="btn btn-primary btn-lg">Millenial Task Force</button>
+
+                <button onclick="window.location.href= 'https://city.milwaukee.gov/2020Census';" type="button"
+                        class="btn btn-primary btn-lg">Participate in the Census</button>
+
+                <button onclick="window.location.href= 'https://city.milwaukee.gov/DCD/BusinessToolbox/Fresh-Food-Access-Fund.htm';" type="button"
+                        class="btn btn-primary btn-lg">Fresh Food Access Fund</button>
+            
             </div>
         </div>
         
