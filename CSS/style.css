@@ -6,6 +6,13 @@ nav, h1, h2, h3, h4 {
     padding: .5rem 0;
     margin: .2rem 0;
     font-size: 1.5em;
+    font-weight: 700;
+}
+h1{
+   font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
 }
 .nav-link:hover {
     color: #00A6E4 !important;
