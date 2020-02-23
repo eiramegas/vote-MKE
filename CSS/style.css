@@ -196,3 +196,11 @@ div.comparisontable ul.row li.legend{
     background-color: #0E2141;
     width: 100%;
 }
+
+.countdown-tile{
+    background-color: #0E2141;
+    color: #eee;
+    padding: 50px 50px 50px;
+    font-size: large;
+    font-weight: bold;
+}
