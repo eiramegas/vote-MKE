@@ -125,7 +125,22 @@ div.row-content {
 .countdown-tile{
     background-color: #0E2141;
     color: #eee;
-    padding: 50px 50px 50px;
+    padding: 25px 25px 25px;
     font-size: large;
     font-weight: bold;
+    margin-top:1rem;
+    width: 13.5rem;
+    
+    
+}
+
+.count-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+ #seconds {
+    width: 14rem;
 }
