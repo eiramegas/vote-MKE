@@ -156,12 +156,6 @@ div.row-content {
  #seconds {
     width: 14rem;
 }
-.tight{
-    margin: 1.25rem 10rem .2rem 10rem;
-}
-.active{
-    opacity: 1;
-}
-.carousel-indicators li{
-    background-color: #F9A900;
-}
+
+
+.hidden { display: none; }
