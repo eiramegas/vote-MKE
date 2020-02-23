@@ -19,7 +19,7 @@ h2{
     font-size: 1.5rem;
 }
 ul{
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .nav-link:hover {
@@ -156,6 +156,11 @@ div.row-content {
  #seconds {
     width: 14rem;
 }
-
+.carousel-indicators li{
+    background-color: #F9A900;
+}
+.tight{
+    margin: 1rem 8rem .3rem 8rem;
+}
 
 .hidden { display: none; }
