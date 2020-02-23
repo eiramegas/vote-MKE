@@ -137,18 +137,28 @@
 
     <div class="contents">
         <!--Countdown-->
-        <div id="countdown">
-            <div class="countdown-tile">
-                <p id="days">days</p>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">April 7, 2020</h1>
             </div>
-            <div id="hours" class="countdown-tile">
-                <p></p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">Days Until Spring 2020 Election</h1>
             </div>
-            <div id="minutes" class="countdown-tile">
-                <p></p>
+        </div>
+        <div id="countdown" class="row">
+            <div class="col">
+                <p id="days" class="countdown-tile text-center"></p>
             </div>
-            <div id="seconds" class="countdown-tile">
-                <p></p>
+            <div class="col">
+                <p id="hours" class="countdown-tile text-center"></p>
+            </div>
+            <div class="col">
+                <p id="minutes" class="countdown-tile text-center"></p>
+            </div>
+            <div class="col">
+                <p id="seconds" class="countdown-tile text-center"></p>
             </div>
         </div>
         <script>
@@ -171,10 +181,10 @@
                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                 // Display the result in the element with id="demo"
-                document.getElementById("days").innerHTML = days + " d";
-                document.getElementById("hours").innerHTML = hours + " h";
-                document.getElementById("minutes").innerHTML = minutes + " m";
-                document.getElementById("seconds").innerHTML = seconds + " s";
+                document.getElementById("days").innerHTML = days + " DAYS";
+                document.getElementById("hours").innerHTML = hours + " HOURS";
+                document.getElementById("minutes").innerHTML = minutes + " MINUTES";
+                document.getElementById("seconds").innerHTML = seconds + " SECONDS";
 
                 // If the count down is finished, write some text
                 if (distance < 0) {
@@ -223,9 +233,9 @@
             </div>
         </div>
     </div>
-    
-    <footer class="container-fluid site-footer ">
-        <div class="row row-fluid">
+    </div>
+    <footer class="container site-footer">
+        <div class="row">
             <div class="col">
                 <h3 class="footer-txt">This is this footer</h3>
             </div>
