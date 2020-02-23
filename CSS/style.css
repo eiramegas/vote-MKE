@@ -8,12 +8,20 @@ nav, h1, h2, h3, h4 {
     font-size: 1.5em;
     font-weight: 700;
 }
+p, .card-text, .points{
+    font-family: 'neue-haas-unica', roboto, sans-serif;
+
+}
 h1{
    font-size: 2rem;
 }
 h2{
     font-size: 1.5rem;
 }
+ul{
+    list-style-type: none;
+}
+
 .nav-link:hover {
     color: #00A6E4 !important;
 }
@@ -71,12 +79,8 @@ body{
 	margin: -.5rem;
 }
 
-.sh {
 
-}
-.card-header {
-	Background-color: #BF6B00;
-}
+
 .card{
     box-shadow: .2rem .2rem rgba(128, 128, 128, 0.76);
 }
@@ -92,7 +96,8 @@ div.row-content {
 #carouselButton {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+    bottom: 0;
+   
 }
 .site-footer{
     background-color: #0C2140;
@@ -150,4 +155,13 @@ div.row-content {
 }
  #seconds {
     width: 14rem;
+}
+.tight{
+    margin: 1.25rem 10rem .2rem 10rem;
+}
+.active{
+    opacity: 1;
+}
+.carousel-indicators li{
+    background-color: #F9A900;
 }
