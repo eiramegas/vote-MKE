@@ -12,6 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/gwp7frt.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="JS/scripts.JS"></script>
 </head>
     <body>
             <header class="header">
@@ -52,7 +53,35 @@
                     </nav>
                 </header>
 
-                <div id="mayor-table" class="container">
+                <div id="office-buttons" class="container">
+                    <div class="row">
+                            <div class="col">
+                                <button onClick="showTable()" id="mayor" type="button" class="btn btn-primary btn-lg">Mayor</button>
+                            </div>
+                            <div class="col">
+                                <button id="attorney" type="button" class="btn btn-primary btn-lg">City Attorney</button>
+                            </div>
+                            <div class="col">
+                                <button type="comptroller" class="btn btn-primary btn-lg">City Comptroller</button>
+                            </div>
+                            <div class="col">
+                                <button type="treasurer" class="btn btn-primary btn-lg">City Treasurer</button>
+                            </div>
+                    </div>
+                </div>
+
+                <script>
+                    function showTable() {
+                        var x = document.getElementById("mayor-table");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
+                    }
+                </script>
+
+                <div id="mayor-table" class="hidden container">
                         <div class="row">
                             <div class="col-md-10 my-4 mx-auto">
                                 <h2 class="text-center">Mayoral Candidate Comparison</h2>
