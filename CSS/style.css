@@ -196,4 +196,8 @@ div.row-content {
     
     margin: 1rem;
 
+
+.card-columns{
+    
+    -webkit-column-break-inside: avoid;
 }
