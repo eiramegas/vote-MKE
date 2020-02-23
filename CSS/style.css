@@ -164,3 +164,24 @@ div.row-content {
 }
 
 .hidden { display: none; }
+.space{
+    margin: 0 0 2rem 0;
+}
+.btn-primary{
+    background-color: #00A6E4  ;
+    font-family: 'rift';
+    border: none;
+    box-shadow: 2px 2px lightgrey;
+    font-weight: 700;
+}
+.text-link{
+    color:black;
+    font-family: 'neue-haas-unica', roboto, sans-serif;
+    text-decoration: underline;
+
+}
+.check-icon{
+    height: 2rem;
+    width: auto;
+    padding: 0 .2rem;
+}
