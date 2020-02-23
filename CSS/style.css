@@ -195,9 +195,21 @@ div.row-content {
 .office{
     
     margin: 1rem;
-
+}
 
 .card-columns{
     
     -webkit-column-break-inside: avoid;
+}
+.mayor-head{
+    padding: 2rem;
+    margin: -10px 0;
+}
+.accordionportrait{
+    max-width: 30%;
+    height: auto;
+ 
+    border-block: 10pt red ;
+    box-shadow: 5px 5p #F9A900;
+
 }
