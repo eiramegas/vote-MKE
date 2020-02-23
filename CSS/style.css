@@ -144,3 +144,6 @@ div.row-content {
  #seconds {
     width: 14rem;
 }
+
+
+.hidden { display: none; }
